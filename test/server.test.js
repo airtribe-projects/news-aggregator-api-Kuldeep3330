@@ -12,7 +12,7 @@ const mockUser = {
 
 let token = '';
 
-// Auth tests
+
 
 tap.test('POST /users/signup', async (t) => { 
     const response = await server.post('/users/signup').send(mockUser);
